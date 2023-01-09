@@ -17,12 +17,12 @@
                 <img src="https://img.icons8.com/ios-filled/50/FFFFFF/menu-rounded.png" alt="menu">
             </picture>
             <ul>
-                <li><a href="#sectionPerfil">Perfil</a></li>
-                <li><a href="#sectionExperience">Experiencia</a></li>
-                <li><a href="#sectionPortafolio">Portafolio</a></li>
-                <li><a href="#sectionEducation">Educacíon</a></li>
-                <li><a href="#sectionSobre">Sobre mi</a></li>
-                <li><a href="#sectionContacto">Contacto</a></li>
+                <li><a class="navPerfil" href="#sectionPerfil">Perfil</a></li>
+                <li><a class="navExperience" href="#sectionExperience">Experiencia</a></li>
+                <li><a class="navPortafolio" href="#sectionPortafolio">Portafolio</a></li>
+                <li><a class="navEducation" href="#sectionEducation">Educacíon</a></li>
+                <li><a class="navSobre" href="#sectionSobre">Sobre mi</a></li>
+                <li><a class="navContacto" href="#sectionContacto">Contacto</a></li>
                
             </ul>
         </nav>
@@ -63,7 +63,7 @@
     </section>
     <section class="text-perfil">
         <div class="container-perfil">
-            <p>Jr. FullStack Developer con conocimientos de HTML , CSS y JavasScript para la construccíon de sitios webs multiplataforma , asi de como de Node.js , Express.js y API REST para implementar soluciones backend en los mismos. De igual forma, estoy en la capacidad de diseñar, crear y gestionar bases de datos sql con PostgreSQL.
+            <p>Jr. FullStack Developer con conocimientos de HTML, CSS y JavasScript para la construcción de sitios webs multiplataforma, asi como de Node.js, Express.js y API REST para implementar soluciones backend en los mismos. De igual forma, estoy en la capacidad de diseñar, crear y gestionar bases de datos sql con PostgreSQL.
             </p>
         </div>
     </section>
@@ -75,40 +75,28 @@
 
             <div class="freelancer">
                 <p>Freelancer</p>
-                <p>Autonomo</p>
+                <p>Autónomo</p>
                 <p>(Diciembre 2022 - Presente)</p>
-                <p>Desarrollo, manutencíon y actualizacíon de aplicaciones web</p>
+                <p>Desarrollo, manutención y actualización de aplicaciones web</p>
             </div>
-            <div class="tecnico">
-                <p>Tecnico de Laboratorio</p>
-                <p>Universidad Anhembi Morumbi</p>
-                <p>(Julio 2022 - Octubre 2022)</p>
-                <p> Preparacíon de clases y Asistencia para los profesores</p>  
-            </div>
-            <div class="Redactor">
-                <p>Redactor Online</p>
-                <p>Money Never Sleeps, S.L.</p>
-                <p>(Diciembre 2020 - Julio 2021)</p>
-                <p>Mas de 500 articulos sobre diversos temas</p>  
-            </div>
-        </div>
+            
     </section>
     <div class="container-h2" id="sectionPortafolio">
         <h2>Portafolio</h2>
     </div>
     <section class="section-portafolio">
         <div class="container-portafolio">
-            <div class="presentation-card">
+            <div class="div-container">
                 <div class="imagen"><a href="https://github.com/Chucholeo387/presentation_card" target="_blank"><img src="./img/presentation-card.png" alt="chucholeo387-Presentacion"></a></div>
                 <div class="details"><p>Presentation card</p></div>
                 <div class="tech"><img src="./img/icon html.png" alt="html"><img src="./img/icon css.png" alt="css"></div>
             </div>
-            <div class="google-clone">
+            <div class="div-container">
                 <div class="imagen"><a href="https://github.com/Chucholeo387/Clone-de-Google" target="_blank"><img src="./img/clone de google.png" alt="google clone"></a></div>
                 <div class="details"><p>Google Clone</p></div>
                 <div class="tech"><img src="./img/icon html.png" alt="html"><img src="./img/icon css.png" alt="css"></div>
             </div>
-            <div class="backend">
+            <div class="div-container">
                 <div class="imagen"><a href="https://github.com/Chucholeo387/myStore2.0" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgTG4SG3tveGNC4KUpo550vULKoyMQwOq4DA&usqp=CAU" alt="backend"></a></div>
                 <div class="details">Backend Tienda Online</div>
                 <div class="tech"><img src="./img/icon js.png" alt="JavaScript"></div>
@@ -116,31 +104,39 @@
         </div> 
     </section>
     <div class="container-h2" id="sectionEducation">
-        <h2>Educacíon</h2>
+        <h2>Educación</h2>
     </div>
     <section class="section-education">
-        <div class="cursos">
-        <p>Cursos:</p>
-        <ul>
-            <li>Fundamertos de Ingenieria de Software</li>
-            <li>Fundamentos de Base de datos</li>
-            <li>Fundamentos de Node.js</li>
-            <li>Fundamentos de la terminal y linea de comando</li>
-        </ul>
-        <ul>
-            <li>HTML y CSS</li>
-            <li>JavaScript</li>
-            <li>PostgreSQL</li>
-            <li>Backend con Node.js: API REST con Express.js</li>
-        </ul>
+        <div class="container-education">
+            <div class="container-uni">
+                <div class="uni">
+                    <p>Universidad de Oriente (Venezuela)</p>
+                    <p>Licenciado en Bioanálisis</p>
+                    <p>(2011 - 2019)</p>
+                    <p>Trabajo de Grado:</p>
+                    <p>Evaluación del extracto acuoso de las esponjas marinas <span>Spirastrella hartmanni</span> y <span>Mycale carmia magnirhaphidophora</span></p>
+                </div>
+            </div>
+
+            <div><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/e42959160740345.63b9a7a0153dd.jpg" alt="Chucholeo387-node-express-backend"> </div>
+            <div><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/002f89160740345.63b9a7a0124ee.jpg" alt="chucholeo387-PostgreSQL"></div>
+            <div><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/cdb319160740345.63b9a7a013463.jpg" alt="chucholeo387-Fundamentos de typescript"></div>
+            <div><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/75667f160740345.63b9a7a01c1be.jpg" alt="chucholeo387-tipos avanzados y funciones"></div>
+            <div><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/fe9ef2160740345.63b9a7a017a64.jpg" alt="chucholeo387-javascript basico"></div>
+            <div><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/1e709e160740345.63b9a7a01d398.jpg" alt="chucholeo387-fundamento de node.js"></div>
+            <div><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/24de68160740345.63b9a7a01b14f.jpg" alt="chucholeo387-fundamentos de ingenerieria de software"></div>
+            <div><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/248907160740345.63b9a7a018ffc.jpg" alt="chucholeo387-HTML-CSS"></div>
+            <div><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/806576160740345.63b9a7a01a178.jpg" alt="CHUCHOLEO387-estructura de datos"></div>
+            <div><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/08ce02160740345.63b9a7a01655a.jpg" alt="chucholeo387-fundamento de base de datos"></div>
+            <div><img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/9f987f160740345.63b9a7a014440.jpg" alt="chucholeo387-backend postgresql"></div>
+           
+           
+     
         </div>
-        <div class="uni">
-            <p>Universidad de Oriente (Venezuela)</p>
-            <p>Licenciado en Bioanálisis</p>
-            <p>(2011 - 2019)</p>
-            <p>Trabajo de Grado:</p>
-            <p>Evaluacíon del extracto acuoso de las esponjas marinas Spirastrella Hartmanni y Mycale carmia magni rhaphidophora</p>
-        </div>
+    
+      
+
+
     </section>
     <div class="container-h2" id="sectionSobre">
         <h2>
@@ -151,13 +147,13 @@
             
         <div class="container-about">
             <p>
-                Hola, mi nombre es jesus, pero tambien me conocen como chucholeo. Tengo 29 años, estoy casado y actualmente vivo en brasil. Me gusta jugar videojuegos, ver series, peliculas y compartir con mi familia y amigos.
+                Hola, mi nombre es Jesús, pero también me conocen como chucholeo. Tengo 29 años, estoy casado y actualmente vivo en Brasil. Me gusta jugar videojuegos, ver series, películas y compartir con mi familia y amigos.
             </p>
         </div>
     </section>
     <footer id="sectionContacto">
         <p><a href="https://www.google.com.br/maps/@-23.1971562,-45.8893397,14.5z" target="_blank">São Jose dos Campos, Brasil</a></p>
-        <p><a href="mailto:lugojesus387@gmail.com?Subject='Quiero%20trabajar%20contigo">lugojesus387@gmail.com</a></p>
+        <p><a href="mailto:lugojesus387@gmail.com?Subject=Quiero%20trabajar%20contigo">lugojesus387@gmail.com</a></p>
 
     <ul>
         <li><a href="https://www.linkedin.com/in/jesus-leonardo-lugo-rodriguez/" target="_blank"><img src="./img/icons8-linkedin-branco.svg" alt="Linkedin"></a></li>
@@ -167,5 +163,6 @@
 
 </footer>
 <script src="./main.js"></script>
+
 </body>
 </html>
